@@ -1,0 +1,83 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1>
+        Welcome to {{ title }}!
+    </h1>
+</div>
+
+<div class="limiter">
+    <div class="container-table100">
+        <div class="wrap-table100">
+            <div class="mb-3">
+                <button type="button" class="btn btn-primary mb-2" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="collapseBasic">Filter
+            </button>
+                <div id="collapseBasic" [collapse]="isCollapsed" [isAnimated]="true">
+                    <div class="well well-lg card card-block card-header">
+                        <form>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="col-6 pl-0">
+                                        <div class="form-group">
+                                            <label class="d-block">By Hard Disk Type</label>
+                                            <ng-select [items]="harddisktype" placeholder="-- Select --" name="harddisktype" [(ngModel)]="harddiskmodal">
+                                            </ng-select>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 pl-0">
+                                        <div class="form-group">
+                                            <label class="d-block">By Location</label>
+                                            <ng-select [items]="location" placeholder="-- Select --" name="harddisktype" [(ngModel)]="locationmodal">
+                                            </ng-select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="d-block">By Ram</label>
+                                        <div class="form-check form-check-inline" *ngFor="let ram of RamList; let index = index">
+                                            <input class="form-check-input" type="checkbox" id="ramCheckbox{{index}}" name="ram{{index}}" [value]="ram.value" (click)="selectRam($event, ram)">
+                                            <label class="form-check-label" for="ramCheckbox{{index}}">{{ram.label}}</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="mb-0">By Storage</label>
+                                        <ng5-slider [(value)]="minValue" [options]="options"></ng5-slider>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary mt-4 mr-2" type="button" (click)="clearFilter()">Clear Filter</button>
+                            <button class="btn btn-primary mt-4" type="button" (click)="applyFilter()">Apply Filter</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="table100 ver1 m-b-110">
+                <div class="table100-head">
+                    <table>
+                        <thead>
+                            <tr class="row100 head">
+                                <th class="cell100 column1">Model</th>
+                                <th class="cell100 column2">Ram</th>
+                                <th class="cell100 column3">HDD</th>
+                                <th class="cell100 column4">Location</th>
+                                <th class="cell100 column5">Price</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+
+                <div class="table100-body js-pscroll">
+                    <table>
+                        <tbody>
+                            <tr class="row100 body" *ngFor="let item of products">
+                                <td class="cell100 column1">{{item.model}}</td>
+                                <td class="cell100 column2">{{item.ram}}</td>
+                                <td class="cell100 column3">{{item.hdd}}</td>
+                                <td class="cell100 column4">{{item.location}}</td>
+                                <td class="cell100 column5">{{item.price}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,241 @@
+[{
+        "model": "Dell R210Intel Xeon X3440",
+        "ram": "16GBDDR3",
+        "ramVal": "16",
+        "hdd": "2x2TBSATA2",
+        "hddVal": "2",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "HP DL180G62x Intel Xeon E5620",
+        "ram": "32GBDDR3",
+        "ramVal": "32",
+        "hdd": "8x2TBSATA2",
+        "hddVal": "2",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "HP DL380eG82x Intel Xeon E5-2420",
+        "ram": "32GBDDR3",
+        "ramVal": "32",
+        "hdd": "8x2TBSATA2",
+        "hddVal": "2",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "RH2288v32x Intel Xeon E5-2650V4",
+        "ram": "128GBDDR4",
+        "ramVal": "128",
+        "hdd": "4x480GBSSD",
+        "hddVal": "0.80",
+        "hddType": "SSD",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "RH2288v32x Intel Xeon E5-2620v4",
+        "ram": "64GBDDR4",
+        "ramVal": "64",
+        "hdd": "4x2TBSATA2",
+        "hddVal": "2",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R210-IIIntel Xeon E3-1230v2",
+        "ram": "16GBDDR3",
+        "ramVal": "16",
+        "hdd": "2x2TBSATA2",
+        "hddVal": "2",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "HP DL380pG82x Intel Xeon E5-2650",
+        "ram": "64GBDDR3",
+        "ramVal": "64",
+        "hdd": "8x2TBSATA2",
+        "hddVal": "2",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R730XD2x Intel Xeon E5-2667v4",
+        "ram": "32GBDDR3",
+        "ramVal": "32",
+        "hdd": "8x2TBSATA2",
+        "hddVal": "2",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R730XD2x Intel Xeon E5-2670v3",
+        "ram": "4GBDDR3",
+        "ramVal": "4",
+        "hdd": "4x1TBSATA2",
+        "hddVal": "1",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R730XD2x Intel Xeon E5-2650v3",
+        "ram": "128GBDDR4",
+        "ramVal": "128",
+        "hdd": "2x120GBSSD",
+        "hddVal": "0.120",
+        "hddType": "SSD",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R730XD2x Intel Xeon E5-2650v4",
+        "ram": "128GBDDR4",
+        "ramVal": "128",
+        "hdd": "2x120GBSSD",
+        "hddVal": "0.120",
+        "hddType": "SSD",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R730XD2x Intel Xeon E5-2630v4",
+        "ram": "128GBDDR4",
+        "ramVal": "128",
+        "hdd": "4x480GBSSD",
+        "hddVal": "0.80",
+        "hddType": "SSD",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "HP DL180 G92x Intel Xeon E5-2620v3",
+        "ram": "128GBDDR4",
+        "ramVal": "128",
+        "hdd": "4x480GBSSD",
+        "hddVal": "0.80",
+        "hddType": "SSD",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R210-IIIntel G530",
+        "ram": "128GBDDR4",
+        "ramVal": "128",
+        "hdd": "4x480GBSSD",
+        "hddVal": "0.80",
+        "hddType": "SSD",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R210-IIIntel Xeon E3-1220",
+        "ram": "64GBDDR4",
+        "ramVal": "64",
+        "hdd": "2x120GBSSD",
+        "hddVal": "0.120",
+        "hddType": "SSD",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R9304x Intel Xeon E7-4850v3",
+        "ram": "4GBDDR3",
+        "ramVal": "4",
+        "hdd": "2x500GBSATA2",
+        "hddVal": "0.500",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R9304x Intel Xeon E7-4820v3",
+        "ram": "16GBDDR3",
+        "ramVal": "16",
+        "hdd": "2x1TBSATA2",
+        "hddVal": "1",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R9304x Intel Xeon E7-4830v3",
+        "ram": "64GBDDR4",
+        "ramVal": "64",
+        "hdd": "2x120GBSSD",
+        "hddVal": "0.120",
+        "hddType": "SSD",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Dell R210-IIIntel Xeon E3-1270v2",
+        "ram": "64GBDDR4",
+        "ramVal": "64",
+        "hdd": "2x120GBSSD",
+        "hddVal": "0.120",
+        "hddType": "SSD",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "Supermicro SC846Intel Xeon E5620",
+        "ram": "64GBDDR4",
+        "ramVal": "64",
+        "hdd": "2x120GBSSD",
+        "hddVal": "0.120",
+        "hddType": "SSD",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "HP DL120G91x Intel E5-1650v3",
+        "ram": "16GBDDR3",
+        "ramVal": "16",
+        "hdd": "2x1TBSATA2",
+        "hddVal": "1",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "HP DL120G7Intel Xeon E3-1230",
+        "ram": "32GBDDR3",
+        "ramVal": "32",
+        "hdd": "24x1TBSATA2",
+        "hddVal": "1",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "DL20G9Intel Xeon E3-1270v5",
+        "ram": "64GBDDR4",
+        "ramVal": "64",
+        "hdd": "4x2TBSATA2",
+        "hddVal": "2",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    },
+    {
+        "model": "HP DL120G91x Intel E5-1620v3",
+        "ram": "16GBDDR3",
+        "ramVal": "16",
+        "hdd": "4x1TBSATA2",
+        "hddVal": "1",
+        "hddType": "SATA",
+        "location": "AmsterdamAMS-01",
+        "price": "€49.99"
+    }
+]
